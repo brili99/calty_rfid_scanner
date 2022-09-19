@@ -118,7 +118,7 @@ String webRequestSecure(String data) {
       }
       http.end();
     } else {
-      Serial.printf("[HTTPS} Unable to connect\n");
+      Serial.printf("[HTTPS] Unable to connect\n");
     }
   }
   return ret;
